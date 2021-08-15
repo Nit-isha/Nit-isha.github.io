@@ -52,6 +52,9 @@ p{
 .brand h1 span{
     color: crimson;
 }
+body{
+    overflow-x: hidden;
+}
 
 /*header*/
 #header{
