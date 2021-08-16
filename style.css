@@ -466,7 +466,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
     
@@ -476,8 +476,8 @@ body{
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -495,13 +495,13 @@ body{
 
 }
 #contact .contact-info h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 5px;
 
 }
 #contact .contact-info h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
 }
@@ -534,13 +534,13 @@ body{
     width: 50px;
     margin-bottom: 0 5px;
 }
-#footer .social-item img{
+/* #footer .social-item img{
     filter: grayscale(1);
     transition: .3s ease filter;
 }
 #footer .social-item:hover img{
     filter: grayscale(0);
-}
+} */
 #footer p{
     color: white;
     font-size: 1.3rem;
@@ -619,7 +619,7 @@ body{
     }
     #contact .contact{
         flex-direction: column;
-        /* padding: 60px 0; */
+        padding: 60px 0;
         padding-top: 0px;
         align-items: center;
         justify-content: center;
@@ -635,7 +635,7 @@ body{
         padding: 30px;
     }
     #contact .contact-item{
-        /* margin: 10px; */
+        margin: 10px;
         flex-direction: row;
         width: 30%;
         
@@ -646,11 +646,23 @@ body{
     }
     #contact .contact-item .icon img{
         object-fit: contain;
+        padding: 10px;
     }
     #contact .contact-item .contact-info{
         width: 100%;
         text-align: left;
         padding-left: 20px;
+    }
+    #contact .contact-info h1{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    
+    }
+    #contact .contact-info h2{
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 2rem;
     }
 }
 
@@ -659,6 +671,17 @@ body{
     #interests .service-bottom .service-item{
         flex-basis: 22%;
         margin: 0.5%;
+    }
+    #contact .contact-info h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    
+    }
+    #contact .contact-info h2{
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2rem;
     }
 
     #header .hamburger{
@@ -683,6 +706,13 @@ body{
     }
     #header .new-list ul a:after{
         display: none;
+    }
+    #footer .social-item img{
+        filter: grayscale(1);
+        transition: .3s ease filter;
+    }
+    #footer .social-item:hover img{
+        filter: grayscale(0);
     }
 }
 
