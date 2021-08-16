@@ -277,7 +277,7 @@ body{
     max-width: 1500px;
     margin: 0 auto;
     
-    padding: 100px 10px;
+    padding: 120px 10px 30px 10px;
 
 }
 #interests .service-top{
@@ -344,10 +344,11 @@ body{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 90px 10px 30px 10px;
+    /* padding: 100px 0; */
 }
 #projects .project-header h1{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #projects .all-projects{
@@ -421,7 +422,8 @@ body{
     flex-direction: column-reverse;
     text-align: center;
     max-width: 1800px;
-    padding: 100px 20px;
+    padding: 70px 10px 30px 10px;
+    /* padding: 100px 20px; */
 }
 #about .column-left img{
     width: 250px;
@@ -455,6 +457,7 @@ body{
     flex-direction: column;
     max-width: 100%;
     margin: 0 auto;
+    padding: 70px 10px 30px 10px;
 
 }
 #contact .contact-items{
@@ -509,8 +512,8 @@ body{
 #footer .footer{
     min-height: 200px;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 
 }
 #footer h2{
@@ -541,6 +544,7 @@ body{
 #footer p{
     color: white;
     font-size: 1.3rem;
+    padding-bottom: 10px;
 }
 /*query for tablet*/
 @media only screen and (min-width:768px){
@@ -587,7 +591,13 @@ body{
         height: 100%;
     }
     #about .about{
+        display: flex;
+        justify-content: center;
         flex-direction: row;
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+    
     }
     #about .column-left{
         width: 600px;
@@ -601,13 +611,20 @@ body{
     #about .column-right h1{
         text-align: left;
     }
+    #about .column-right p{
+        text-align: left;
+    }
+    #about .column-right h2{
+        text-align: left;
+    }
     #contact .contact{
         flex-direction: column;
-        padding: 60px 0;
+        /* padding: 60px 0; */
+        padding-top: 0px;
         align-items: center;
         justify-content: center;
         min-width: 2vh;
-        padding-bottom: 150px;
+        padding-bottom: 80px;
     }
     #contact .contact-items{
         width: 100%;
