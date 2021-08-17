@@ -367,6 +367,17 @@ body{
     overflow: hidden;
     border-radius: 10px;
 }
+#projects .project-item a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* margin: 20px auto; */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
 #projects .project-info{
     padding: 30px;
     flex-basis: 50%;
@@ -409,6 +420,7 @@ body{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) ;
     opacity: .7;
 }
+
 #projects .project-image img{
     transition: .3s ease transform;
     
@@ -576,10 +588,23 @@ body{
     #projects .project-item{
         flex-direction: row;
     }
+    #projects .project-item a{
+        flex-direction: row;
+    }
     #projects .project-item:nth-child(even){
         flex-direction: row-reverse;
     }
+    #projects .project-item:nth-child(even) a{
+        flex-direction: row-reverse;
+    }
     #projects .project-item{
+        
+        height: 300px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #projects .project-item a{
         
         height: 300px;
         margin: 0;
